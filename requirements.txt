@@ -9,7 +9,7 @@ future==0.18.3
 search_engine_parser
 telethon==1.33.1
 gitpython
-httpx[http2]
+httpx
 heroku3
 hachoir
 motor==3.3.2
@@ -42,3 +42,4 @@ git+https://github.com/alexmercerind/youtube-search-python@main
 git+https://github.com/joetats/youtube_search@master
 bing-image-urls
 Cloudscraper
+py-yt-search
