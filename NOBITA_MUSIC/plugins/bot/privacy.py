@@ -9,7 +9,7 @@ TEXT = f"""
 
 Your privacy is important to us. To learn more about how we collect, use, and protect your data, please review our Privacy Policy here: [Privacy Policy]({config.PRIVACY_LINK}).
 
-If you have any questions or concerns, feel free to reach out to our [support team](https://t.me/NOB1TA_SUPPORT).
+If you have any questions or concerns, feel free to reach out to our [support team](https://t.me/NOBITA_SUPP0RT).
 """
 
 @app.on_message(filters.command("privacy"))
