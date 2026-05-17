@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from NOBITA_MUSIC import LOGGER, YouTube, app
-from NOBITA_MUSIC.misc import db
-from NOBITA_MUSIC.utils.database import (
+from GETO_MUSIC import LOGGER, YouTube, app
+from GETO_MUSIC.misc import db
+from GETO_MUSIC.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from NOBITA_MUSIC.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from NOBITA_MUSIC.utils.exceptions import AssistantErr
-from NOBITA_MUSIC.utils.formatters import check_duration, seconds_to_min, speed_converter
-from NOBITA_MUSIC.utils.inline.play import stream_markup, telegram_markup
-from NOBITA_MUSIC.utils.stream.autoclear import auto_clean
-from NOBITA_MUSIC.utils.thumbnails import get_thumb
+from GETO_MUSIC.utils.exceptions import AssistantErr
+from GETO_MUSIC.utils.formatters import check_duration, seconds_to_min, speed_converter
+from GETO_MUSIC.utils.inline.play import stream_markup, telegram_markup
+from GETO_MUSIC.utils.stream.autoclear import auto_clean
+from GETO_MUSIC.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
@@ -608,4 +608,4 @@ class Call(PyTgCalls):
             await self.change_stream(client, update.chat_id)
 
 
-NOBITA = Call()
+GETO = Call()
