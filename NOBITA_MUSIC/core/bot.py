@@ -1,5 +1,4 @@
 from pyrogram import Client, errors
-from pyrogram.enums import ChatMemberStatus
 
 import config
 
@@ -32,18 +31,12 @@ class NOBITA(Client):
             )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
             LOGGER(__name__).error(
-                "Bot has failed to access the log group/channel. Make sure that you have added your bot to your log group/channel."
+                "Bot has failed to access the log group/channel."
             )
 
         except Exception as ex:
             LOGGER(__name__).error(
-                f"Bot has failed to access the log group/channel.\n  Reason : {type(ex).__name__}."
-            )
-
-        a = await self.get_chat_member(config.LOGGER_ID, self.id)
-        if a.status != ChatMemberStatus.ADMINISTRATOR:
-            LOGGER(__name__).error(
-                "Please promote your bot as an admin in your log group/channel."
+                f"Bot has failed to access the log group/channel.\nReason : {type(ex).__name__}."
             )
 
         LOGGER(__name__).info(f"Music Bot Started as {self.name}")
