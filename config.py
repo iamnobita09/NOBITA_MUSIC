@@ -15,7 +15,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","II_NOBITA_DEFAULTERS_II")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","NOBITA_MUSIC_ROBOT")
+BOT_USERNAME = getenv("BOT_USERNAME","DefaultersMusicRobot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -27,7 +27,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002344707828))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003902902976))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 1106006604))
