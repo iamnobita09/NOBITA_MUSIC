@@ -26,7 +26,6 @@ wget
 youtube-search-python
 googlesearch-python
 search_engine_parser
-gpytranslate
 bing_image_downloader
 cloudscraper
 py-yt-search
