@@ -31,8 +31,7 @@ bing_image_downloader
 bing-image-urls
 cloudscraper
 py-yt-search
-SafoneAPI==1.0.65
-MukeshAPI
+
 pyrogram==2.0.106
 pytgcalls==3.0.0.dev24
 yt-dlp
