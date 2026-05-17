@@ -5,7 +5,7 @@ from NOBITA_MUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "NOB1TA_SUPPORT"
+MUST_JOIN = "NOBITA_SUPP0RT"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
@@ -26,10 +26,10 @@ async def must_join_channel(app: Client, msg: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/+WLTHgUAvkYVmNTg9"),
+                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/+S0Q1-J_EQLA3YmU1"),
                             ],
                             [
-                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/NOB1TA_SUPPORT"),
+                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/NOBITA_SUPP0RT"),
                             ]
                         ]
                     )
