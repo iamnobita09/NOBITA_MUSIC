@@ -7,7 +7,6 @@ future==0.18.3
 gitpython
 hachoir
 heroku3
-httpx
 motor==3.3.2
 pillow==9.5.0
 psutil
@@ -34,8 +33,6 @@ cloudscraper
 py-yt-search
 SafoneAPI==1.0.65
 MukeshAPI
-
 pyrogram==2.0.106
 pytgcalls==3.0.0.dev24
-
 yt-dlp
