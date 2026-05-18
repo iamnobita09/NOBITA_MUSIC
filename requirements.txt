@@ -34,3 +34,4 @@ py-tgcalls==0.9.7
 yt-dlp
 httpx>=0.28.1
 git+https://github.com/AsmSafone/SafoneAPI
+electrogram
