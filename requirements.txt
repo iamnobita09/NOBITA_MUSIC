@@ -30,7 +30,7 @@ bing_image_downloader
 cloudscraper
 py-yt-search
 pyrogram==2.0.106
-pytgcalls==1.4.2
+pytgcalls==3.0.0.dev24
 yt-dlp
 httpx>=0.28.1
 git+https://github.com/AsmSafone/SafoneAPI
