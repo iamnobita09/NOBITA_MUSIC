@@ -29,7 +29,7 @@ bing_image_downloader
 cloudscraper
 py-yt-search
 pyrogram==2.0.106
-pytgcalls==2.1.0
+py-tgcalls==0.9.7
 tgcrypto==1.2.5
 yt-dlp
 httpx>=0.28.1
