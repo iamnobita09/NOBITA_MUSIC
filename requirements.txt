@@ -31,6 +31,7 @@ cloudscraper
 py-yt-search
 pyrogram==2.0.106
 pytgcalls==2.1.0
+tgcrypto==1.2.5
 yt-dlp
 httpx>=0.28.1
 git+https://github.com/AsmSafone/SafoneAPI
